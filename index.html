@@ -4,59 +4,125 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página - Módulo I - Primeiros Passos com HTML</title>
+    <title>Desafio 1 - Formação HTML</title>
 </head>
 <body>
-    <h1>Módulo 1 - Primeiros Passos com HTML</h1>
-    <hr />
 
-    <h2>Índice</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste índice você deve colocar os tópicos que mais entendeu. Estes apenas são sugestões.</p>
-    <ul>
-        <li><a href="#">História dos computadores</a></li>
-        <li><a href="#">O que são <i>Clients</i>?</a></li>
-        <li><a href="#">O que são <i>Servers</i>?</a></li>
-        <li><a href="#">Como é uma estrutura básica de um HTML?</a></li>
-        <li><a href="#">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
-        <li><a href="#">Links de referências</a></li>
-    </ul>
+<h1 id="inicio">Módulo 1 - Iniciando com HTML</h1>
+<h2>Índice</h2>
+<p>
+    <strong>
+        Instruções: 
+    </strong>
+        Segue abaixo os principais tópicos que recomendamos para o seu estudo.
+</p>
+<ul>
+    <li>O que são: <a href="#clients-servers">Clients x Servers</a></li>
+    <li>O que são: <a href="#estruturas-html">Estruturas de um HTML</a></li>
+    <li>O que são: <a href="#listas-html">Listas ordenadas e Lista não ordenadas</a></li>
+</ul>
 
-    <h2>História dos computadores</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+<h3 id="clients-servers">O que são: <i>Clients x Server </i><font style="font-size:12px;"><a href="#estruturas-html">(Próximo &darr;)</a> </font></h3>
+<p><strong>Descrição: </strong>
+    Em um contexto web, os clientes e servidores desempenham papéis fundamentais na comunicação e entrega de conteúdo.
+</p>
 
-    <h2>O que são <i>Clients</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+<p><strong>Clientes: </strong>
+Os clientes são os dispositivos que os usuários utilizam para acessar e visualizar páginas da web. O cliente mais comum é o <strong>navegador (como o Google Chrome, Mozilla Firefox, Safari, entre outros).</strong> O navegador solicita recursos <strong>(como páginas HTML, folhas de estilo CSS, scripts JavaScript, imagens, vídeos etc.)</strong> a um servidor e exibe esses recursos para o usuário.
+</p>
 
-    <h2>O que são <i>Servers</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+<p><strong>Servidores: </strong>
+Os servidores são computadores ou sistemas que armazenam os recursos necessários para exibir páginas da web. Eles são responsáveis por receber as solicitações dos clientes, processá-las e enviar as respostas adequadas de volta aos clientes. Os servidores geralmente hospedam os arquivos de um site, como páginas HTML, imagens, arquivos CSS e scripts JavaScript.
+</p>
 
-    <h2>Como é uma estrutura básica de um HTML?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+<p><strong>HTML: </strong>
+O HTML (Hypertext Markup Language) é uma linguagem de marcação que define a estrutura e o conteúdo de uma página da web. Ele permite que os desenvolvedores estruturem e organizem o conteúdo de uma página usando elementos como cabeçalhos, parágrafos, imagens, links e outros elementos específicos do HTML. O HTML também pode ser usado para incorporar recursos externos, como folhas de estilo CSS e scripts JavaScript, que aprimoram a aparência e a funcionalidade da página.
+</p>
 
-    <h2>Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+<p><strong>Clientes e Servidores: </strong>
+A comunicação entre clientes e servidores em HTML acontece por meio do protocolo HTTP (Hypertext Transfer Protocol). Quando um cliente solicita uma página HTML ou outro recurso a um servidor, ele envia uma requisição HTTP contendo informações como o <strong> de requisição (GET, POST, entre outros.)</strong> e o endereço do recurso desejado. O servidor recebe essa requisição, processa-a e retorna uma resposta HTTP contendo o recurso solicitado ou informações adicionais, como códigos de status (como 200 OK, 404 Not Found, entre outros).
+</p>
 
-    <h2>Links de referências</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Coloque links para outras páginas que falam sobre estes assuntos. Não esquece de que precisa abrir em outra aba/janela do navegador.</p>
-    <ul>
-        <li><a href="#">http://dio.me</a></li>
-        <li><a href="#">http://w3c.org</a></li>
-    </ul>
+<p><strong>Conclusão do tópico: </strong>
+Ao receber a resposta do servidor, o cliente (navegador) interpreta o HTML e exibe o conteúdo da página para o usuário. O navegador também pode interpretar outros recursos, como folhas de estilo CSS para estilizar a página e scripts JavaScript para adicionar interatividade e funcionalidade dinâmica.
+</p> 
 
+<p>Em resumo, o HTML é a linguagem usada para estruturar o conteúdo de uma página da web, enquanto os clientes (navegadores) e servidores trabalham juntos para permitir a comunicação e a entrega de recursos entre o servidor e o cliente, resultando na exibição das páginas da web para os usuários.</p>
+
+<h3 id="estruturas-html">O que são: <i>Estruturas de um HTML </i><font style="font-size:12px;"><a href="#listas-html">(Próximo &darr;)</a> </font></h3>
+<p>Descrição: As estruturas em HTML referem-se à organização e hierarquia dos elementos que compõem uma página da web. O HTML utiliza uma estrutura baseada em elementos HTML aninhados para criar a estrutura do conteúdo.
+</p>
+
+<p> A estrutura básica de um documento HTML é composta por alguns elementos principais:</p>
+
+<ul>
+    <li><strong>Tag < html ></strong><br>
+        É a tag raiz de um documento HTML. Todos os outros elementos HTML são filhos diretos ou indiretos dessa tag.</li>
+    <li><strong>Tag < head ></strong><br>
+        É usada para definir informações sobre o documento HTML, como o título da página, vinculação a folhas de estilo CSS, inclusão de scripts JavaScript e metadados (informações sobre o documento, como codificação de caracteres, descrição, palavras-chave, etc.).</li>
+    <li><strong>Tag < body ></strong> <br> 
+        É onde o conteúdo visível da página é colocado. Todos os elementos que são exibidos na página, como texto, imagens, links, formulários, estão contidos dentro da tag <strong>< body ></strong>.
+    </li>
+    <li><strong>Tags de cabeçalho < h1 > a < h6 > </strong> <br> 
+        São utilizadas para criar títulos e subtítulos na página. <br> O < h1 > é o título principal e < h6 > é o menos importante.
+    </li>
+    <li><strong>Tag de parágrafo < p > </strong> <br> 
+        São usadas para criar parágrafos de texto na página.
+    </li>
+    <li><strong>Tag de divisão < div > </strong> <br> 
+        São usadas para agrupar elementos em blocos independentes. Elas são frequentemente usadas para criar seções e dividir o conteúdo em partes lógicas.
+    </li>
+    
+
+</ul>
+
+<p>Além dessas tags básicas, existem muitas outras tags HTML que podem ser usadas para criar diferentes tipos de elementos e estruturas na página da web.
+</p>
+
+<p> A estrutura do HTML é importante para garantir uma organização lógica e semântica do conteúdo da página. Através do uso correto das tags e da hierarquia dos elementos, é possível criar uma estrutura clara e compreensível para os navegadores e motores de busca, facilitando a indexação e interpretação do conteúdo pelos usuários e sistemas automatizados.
+</p>
+
+<p> É importante lembrar que as estruturas HTML devem ser combinadas com estilos CSS para fornecer uma apresentação visual adequada e com scripts JavaScript para adicionar interatividade e funcionalidades dinâmicas à página.
+</p>
+
+<h3 id="listas-html">O que são: <i>Listas ordenadas e Lista não ordenadas</i> <font style="font-size:12px;"> <a href="#inicio">(Voltar &uarr;)</a> </font></h3>
+<p>Descrição: Em HTML, existem dois tipos principais de listas: <strong>listas ordenadas (ordered lists)</strong> e <strong>listas não ordenadas (unordered lists)</strong>
+</p>
+
+<p><strong>Listas ordenadas: </strong>
+As listas ordenadas são utilizadas quando é necessário apresentar itens em uma sequência específica, com um número ou letra correspondente a cada item. Para criar uma lista ordenada, <strong>utiliza-se a tag < ol > (ordered list)</strong> e cada item da lista é definido com a <strong> tag < li > (list item)</strong>.
+</p> 
+
+<p>As listas ordenadas em HTML podem ser usadas em uma ampla variedade de tipos de websites, dependendo da necessidade de apresentar itens em uma sequência específica. Aqui estão alguns exemplos de tipos de websites onde as listas ordenadas podem ser úteis:
+</p>
+
+<p><strong> Websites educacionais:</strong>
+Em sites educacionais, é comum encontrar listas ordenadas para apresentar tópicos em uma sequência lógica, como uma lista de passos para realizar uma atividade, uma sequência de eventos históricos, uma lista de conceitos em ordem de importância, entre outros.
+</p>
+
+<p><strong> Websites de documentação ou tutoriais:</strong>
+Em sites de documentação ou tutoriais, as listas ordenadas podem ser usadas para fornecer instruções passo a passo ou guias, apresentando uma sequência específica de ações a serem realizadas pelos usuários.
+</p>
+
+<p><strong> Websites de receitas culinárias:</strong>
+Em sites de culinária, as listas ordenadas são frequentemente usadas para listar os ingredientes e as etapas de uma receita em ordem, permitindo que os leitores sigam o processo de preparação passo a passo.
+</p>
+
+<p><strong>Websites de guias de viagem:</strong>
+Em sites de guias de viagem, as listas ordenadas podem ser utilizadas para fornecer itinerários ou listas de atrações em uma cidade, permitindo que os visitantes sigam uma sequência recomendada.
+</p>
+
+<p><strong> Websites de listas de reprodução ou rankings:</strong>
+Em sites que envolvem listas de reprodução de músicas, filmes, livros ou rankings de qualquer tipo, as listas ordenadas podem ser usadas para apresentar os itens na ordem de classificação ou preferência.
+</p>
+
+<p> Esses são apenas alguns exemplos, mas as listas ordenadas podem ser aplicadas em muitos outros tipos de websites sempre que houver a necessidade de apresentar itens em uma sequência específica. A escolha de usar listas ordenadas em um website depende do conteúdo e da maneira como você deseja organizar e apresentar as informações aos usuários.
+</p>
+
+<p><strong>Listas não ordenadas: </strong>
+As listas não ordenadas são usadas para apresentar itens em uma ordem não específica, sem números ou letras correspondentes. 
+<br> Para criar uma lista não ordenada,<strong> utiliza-se a tag < ul > (unordered list) </strong>e cada item da lista é definido com a <strong>tag < li > (list item)</strong>
+</p> 
+    
 </body>
 </html>
